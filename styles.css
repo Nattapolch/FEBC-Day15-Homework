@@ -1,0 +1,30 @@
+#product-detail {
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-fluid {
+  margin-bottom: 10px;
+}
+.card-title.stock {
+  margin-bottom: 10px;
+}
+#card-detail {
+  padding: 15px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.list-group-item.gray {
+  background-color: #f7f7f7;
+}
+.col-md-6.left {
+  gap: 10px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.rating-option {
+  margin-left: 10px;
+}
+.rating {
+  margin-bottom: 10px;
+}
