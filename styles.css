@@ -2,56 +2,95 @@
   background-color: #f7f7f7;
   padding-left: 50px;
 }
+
 .col-md-6.left {
   padding-left: 50px;
 }
+
 .col-md-6.right {
   padding-right: 50px;
 }
+
 .col-12.rate {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .col-md-12.review {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .img-fluid {
   margin-bottom: 10px;
 }
+
 .card-title.stock {
   margin-bottom: 10px;
 }
+
 #card-detail {
   padding: 15px;
   margin-bottom: 20px;
   gap: 10px;
 }
+
 .list-group-item.gray {
   background-color: #f7f7f7;
 }
+
 .col-md-6.left {
   gap: 10px;
 }
+
 .row {
   margin-bottom: 20px;
 }
+
 .rating-option {
   margin-left: 10px;
 }
+
 .rating {
   margin-bottom: 10px;
 }
+
 @media (min-width: 768px) {
   .list-group-item .d-flex {
     align-items: center;
   }
+
   .list-group-item .d-flex .mb-2 {
     margin-bottom: 0;
   }
 }
+
 @media (max-width: 767px) {
   .custom-submit {
     width: 30%;
+  }
+
+  .col-12.nav {
+    background-color: #f7f7f7;
+    padding-left: 0px;
+  }
+
+  .col-md-6.left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .col-md-6.right {
+    padding-right: 20px;
+  }
+
+  .col-12.rate {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .col-md-12.review {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
