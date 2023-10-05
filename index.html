@@ -14,37 +14,42 @@
     <title>Homework-Day15</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-semibold" href="#">Your Brand</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <div class="container-fluid" id="product-detail">
+      <div class="row">
+        <div class="col-12 nav">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-semibold" href="#">Your Brand</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
-    </nav>
-
-    <div class="container" id="product-detail">
       <div class="row">
         <div class="col-md-6 left">
           <img
@@ -66,7 +71,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 right">
           <div class="card" id="card-detail">
             <h1>Product Name</h1>
             <p>
@@ -103,43 +108,71 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-            <ul class="list-group">
-                <li class="list-group-item gray fw-medium">Rate this Product</li>
-    
-                <li class="list-group-item">
-                    <div class="d-flex flex-column flex-md-row align-items-md-start">
-                        <div class="me-md-2 mb-2 mb-md-0">
-                            <input type="radio" name="rating" value="1" id="rating1" />
-                            <label for="rating1" class="option">1</label>
-                            <input type="radio" name="rating" value="2" id="rating2" class="rating-option" />
-                            <label for="rating2" class="option">2</label>
-                            <input type="radio" name="rating" value="4" id="rating4" class="rating-option" />
-                            <label for="rating4" class="option">4</label>
-                            <input type="radio" name="rating" value="5" id="rating5" class="rating-option" />
-                            <label for="rating5" class="option">5</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-sm custom-submit">Submit Rating</button>
-                    </div>
-                </li>
-            </ul>
+        <div class="col-12 rate">
+          <ul class="list-group">
+            <li class="list-group-item gray fw-medium">Rate this Product</li>
+
+            <li class="list-group-item">
+              <div class="d-flex flex-column flex-md-row align-items-md-start">
+                <div class="me-md-2 mb-2 mb-md-0">
+                  <input type="radio" name="rating" value="1" id="rating1" />
+                  <label for="rating1" class="option">1</label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="2"
+                    id="rating2"
+                    class="rating-option"
+                  />
+                  <label for="rating2" class="option">2</label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="4"
+                    id="rating4"
+                    class="rating-option"
+                  />
+                  <label for="rating4" class="option">4</label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="5"
+                    id="rating5"
+                    class="rating-option"
+                  />
+                  <label for="rating5" class="option">5</label>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-sm custom-submit"
+                >
+                  Submit Rating
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 review">
           <ul class="list-group">
             <li class="list-group-item gray fw-medium">Reviews</li>
             <li class="list-group-item">
               <div class="fw-medium">John Doe</div>
-              <div><p>Great Product! I love the design and the features. Highky
-                recommended!</p>
-                
+              <div>
+                <p>
+                  Great Product! I love the design and the features. Highky
+                  recommended!
+                </p>
               </div>
             </li>
             <li class="list-group-item">
               <div class="fw-medium">Jane Smith</div>
-              <div><p>Amazing value for the price. It has exceeded my expectations. Will buy again!</p>
-                
+              <div>
+                <p>
+                  Amazing value for the price. It has exceeded my expectations.
+                  Will buy again!
+                </p>
               </div>
             </li>
           </ul>
